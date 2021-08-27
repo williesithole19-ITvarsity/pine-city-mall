@@ -1,0 +1,351 @@
+body{
+  
+    background-image: url('images/inside\ image.jpg');
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    position: fixed;
+    top     : 0;
+    left    : 0;
+    z-index : 500;
+    width   :100%;
+    height  :80px;
+}
+#header img{
+    display: block;
+    margin : auto;
+    height : 70%;
+    padding-top: 15px; 
+}
+#top-buttons{
+    position: fixed;
+    top     : 80px;
+    left    : 0;
+    z-index : 500;
+    width   : 100%;
+    height  : 40px;
+    background-color: rgba(255, 255, 255, .8) ;
+}
+
+#top-buttons a{
+    float   : left;
+    display : block;
+    width   : 20%;
+    height  :35px;
+    font-weight : 700;
+    color       : black;
+    text-align  : center;
+    text-decoration : none;
+    padding-top     : 12px;  
+}
+/*===========main==============*/
+
+#main-home{
+    margin-top: 120px;
+}
+/*===========bottom buttons==============*/
+
+#bottom-buttons{
+    position : fixed;
+    bottom   : 0;
+    left     : 0;
+    z-index  : 500;
+    width    : 100%;
+    height   : 40px;
+    background-color: rgba(255, 255, 255, .8) ;
+}
+
+#bottom-buttons a{
+   float : left;
+   display : block;
+   width : 50%;
+   height : 35px;
+   font-weight : 700;
+   color       :black;
+   text-align  : center;
+   text-decoration : none;
+   padding-top     : 15px;
+}
+/*===========LINKs HOVER==============*/
+#top-buttons a:hover{
+    color:skyblue;
+}
+#bottom-buttons a:hover{
+    color: skyblue;
+}
+/*===========main==============*/
+#hm{
+    height: 150px;
+    width: 40%;
+    
+}
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    padding-top:50px ;
+}
+/*===========store page==============*/
+h2{
+    font-family: oswald, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+li{
+    margin: 20px;
+    list-style: none;
+    font-size: 22px;
+    align-items: flex-end;
+    
+}
+
+li a:hover{
+    text-decoration:none;
+    color: ivory;
+}
+
+ul img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(9, 0, 58);
+    border-radius: 50%;
+}
+li a{
+    text-decoration: none;
+    color: khaki;
+    text-align: center;
+}
+/*===========box and squre==============*/
+.box{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    grid-gap: 20px;
+    margin: 10px;
+    align-items: flex-end;
+}
+.sqaure{
+    border: 5px solid;
+    border-radius: 10px;
+    background-color:rgb(25, 25, 25, 0.8);
+    padding-bottom: 40px;
+
+}
+.sqaure p{
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration:none;
+    font-family: helvetica;
+    text-align: center;
+}
+/*===========electronics and souns==============*/
+.electronics{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    grid-gap: 20px;
+    margin: 10px;
+    align-items: flex-end;
+}
+.sound{
+    border: 5px solid;
+    border-radius: 10px;
+    background-color:rgb(2, 25, 25, 0.8);
+    
+}
+.electronics p{
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration:none;
+    font-family: helvetica;
+    text-align: center;
+}
+/*===========supermarket==============*/
+.supermarket{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    grid-gap: 20px;
+    margin: 10px;
+    align-items: flex-end;
+}
+.suppermarket{
+    border: 5px solid;
+    border-radius: 10px;
+    background-color:rgb(2, 25, 25, 0.8);
+
+    
+}
+.supermarket p{
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration:none;
+    font-family: helvetica;
+    text-align: center;
+}
+/*===========info-box==============*/
+
+a.info-box{
+    text-decoration : none;
+    background      : rgba(255 ,255, 255, .8);
+    width           : 90%;
+    height          : 350px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 30px;
+    padding         : 1px; 
+}
+.info-box img{
+    height : 300px;
+    margin : 30px;
+    float  : left;
+    width: 200;
+}
+
+h3{
+    
+    font-size: 29px;
+    padding-bottom: 30PX;
+    margin-bottom :0;
+    width : 90%;
+    color :blue;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.info-box p{
+    font-size: 20px;
+    margin-top: 30px;
+    padding : 3px;
+    width   : 90%;
+    color   : #131313;
+    text-align: center;
+}
+
+.info-box img.right{
+    float      : right;
+    margin-top : 25px;
+    height     : 40px; 
+}
+/*===========info-box full==============*/
+#info-box-full{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 50%;
+    display : block;
+    margin  : auto;
+    margin-bottom : 50px;
+    padding    : 80px;
+}
+
+
+
+#info-box-full img{
+    width : 100%;
+    margin-bottom: 100px;
+}
+
+
+
+#info-box-full h3{
+    text-align : center;
+}
+/*===========shop store individual==============*/
+.mrprice{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    grid-gap: 20px;
+    margin: 10px;
+    align-items: flex-end;
+}
+.mrp{
+    border: 5px solid;
+    border-radius: 10px;
+    background-color:rgb(2, 25, 25, 0.8);
+    
+}
+.mrprice p{
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration:none;
+    font-family: helvetica;
+    text-align: center;
+}
+/*========zara=======*/
+.the-circle{
+    display: grid;
+    grid-auto-flow: column;
+    align-self: auto;
+    justify-items: center;
+}
+
+.circle{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    border: 2px solid rgb(9, 0, 58);
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+    background-color:rgb(255, 255, 255, 0.9);
+    font-size: 20px;
+    padding-top: 80px;
+}
+    
+
+.circle p{
+    font-size: 18px;
+    color: black;
+    text-decoration:none;
+    font-family: helvetica;
+    text-align: center;
+    margin-bottom: 90px;
+    padding-bottom: 100px;
+}
+
+.picture img{
+    height: 350px;
+    width: 400px;
+    border: 4px solid maroon;
+    border-radius: 50px;
+    justify-items: right;
+    margin-bottom: 30PX;
+}
+/*===========frrdback==============*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    background-color: darkblue;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
